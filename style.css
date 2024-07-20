@@ -170,7 +170,13 @@ p {
   margin: 0 auto;
   padding-bottom: 30px;
 }
-button {
+
+img {
+  width: 25px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
   padding: 10px;
   margin: 0 auto;
   border: none;
@@ -180,14 +186,7 @@ button {
   border-radius: 10px;
   background-color: white;
 }
-img {
-  width: 25px;
-}
-a {
-  text-decoration: none;
-  font-size: 18px;
-}
-button::hover {
+a:hover {
   background: #acdfab;
 }
 .social {
